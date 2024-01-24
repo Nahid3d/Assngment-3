@@ -19,6 +19,15 @@
     body{
         font-family: 'Manrope', sans-serif;
     }
+
+@media only screen and (max-width:600px) {
+                .sm-device{
+                  
+                  display: none;
+                  
+                }
+                
+               }
 </style>
 <!-- #13131899. -->
 <script>
@@ -667,7 +676,104 @@
         
       </section>
       
-    
+     
+      <!-- Get In Touch section start  -->
+
+      <section class="mx-20 my-20">
+        <div class="container">
+          <div>
+            <h2 class="text-[#131318] text-4xl font-extrabold text-center">
+              Get In Touch 
+            </h2>
+            <p class="text-primary lg:text-sm font-medium leading-7 text-center"> A paragraph is a series of sentences that are organized and <br> coherent, and are all related to a single topic.  </p>
+            <hr style="border: 1px dashed rgb(184, 181, 181);" class="mt-9">
+          </div>
+
+          <div class="main lg:flex gap-5 mt-10 space-y-10">
+            <div class="p-10 border-2 rounded-md">
+              <!-- first box  -->
+              <div class="bg-[#bced6d26] mt-2 px-8 py-12 rounded-xl">
+                <img src="./Images/Group 1171275317.png" alt="phone logo ">
+                <h3 class="text-primary mt-4">
+                  Phone Number : <br>
+                 <span class="text-accent leading-8 text-xl font-bold">
+                  (+62) 123-321-543
+                 </span>
+                </h3>
+              </div>
+              <!-- second box -->
+              <div class="bg-[#fddd5f29] mt-2 px-8 py-12 rounded-xl">
+                <img src="./Images/Group 1171275318.png" alt="phone logo ">
+                <h3 class="text-primary mt-4">
+                  Email : 
+ 
+                   <br>
+                 <span class="text-accent lg:leading-8 text-xl font-bold">
+                  hockeys@ <span class="">
+                    support.com
+                  </span>
+                 </span>
+                </h3>
+              </div>
+              <!-- third box -->
+              <div class="bg-[#bced6d20] mt-2 px-8 py-12 rounded-xl">
+                <img src="./Images/Group 1171275321.png" alt="phone logo ">
+                <h3 class="text-primary mt-4">
+                  Location : 
+
+                  <br>
+                 <span class="text-accent leading-8 text-xl font-bold">
+                
+
+                  152/1 Mohakhali Wireless
+                 </span>
+                </h3>
+              </div>
+
+            </div>
+            <div class="border-2 rounded-md p-5">
+              <form class="lg:flex gap-5">
+                <label for="name"><span class="text-accent text-xl font-bold">Your Name</span> <br>
+                  <input class="text-primary text-sm text-center px-5 py-5 bg-[#13131808] rounded-md outline-none" type="text" name="" id="name" placeholder="Enter Your Full Name">
+                </label> <br>
+                <label for="Email"><span class="text-accent text-xl font-bold"> Your Email </span> <br>
+                  <input class="text-primary text-sm text-center px-5 py-5 bg-[#13131808] rounded-md outline-none" type="email" name="email" id="Email" placeholder="Enter Your Email">
+                </label> 
+               
+              </form>
+              <div class="lg:flex gap-5 mt-5">
+                 <!-- 2 extra  -->
+                 <label for="name"><span class="text-accent text-xl font-bold">Subject</span> <br>
+                  <input class="text-primary text-sm text-center px-5 py-5 bg-[#13131808] rounded-md outline-none" type="text" name="" id="name" placeholder="Enter Your Subject">
+                </label> <br>
+                <label for="Email"><span class="text-accent text-xl font-bold"> Phone Number </span> <br>
+                  <input class="text-primary text-sm text-center px-5 py-5 bg-[#13131808] rounded-md outline-none" type="email" name="email" id="Email" placeholder="Enter Your Phone Number">
+                </label>
+              </div>
+               <!-- text area sm device -->
+               <div class="lg:hidden mt-5">
+                <label for="textarea"><span class="text-accent text-xl font-bold">Message</span> <br>
+                  <textarea class=" outline-none bg-[#13131817] p-12 rounded-lg " name="massage" id="textarea" cols="15"  rows="5" placeholder="Enter Your massage"></textarea>
+                </label>
+               </div>
+               <!-- large device  -->
+               <div class="sm-device mt-5">
+                <label for="textarea"><span class="text-accent text-xl font-bold">Message</span> <br>
+                  <textarea class=" outline-none bg-[#13131817] p-12 rounded-lg " name="massage" id="textarea" cols="40"  rows="5" placeholder="Enter Your massage"></textarea>
+                </label>
+               </div>
+               <div class="mt-5">
+                <button class="btn bg-secondary text-white lg:w-[450px]">
+                Sent Message
+                </button>
+               </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+     
     </main>
     <footer>
 
